@@ -1,0 +1,52 @@
+.section3 {
+  margin: 100px 0;
+  height: 370px;
+  border-radius: 0 150px 0 150px;
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+  background: linear-gradient(90deg, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
+}
+.section3 .imga1 {
+  position: absolute;
+  top: -300px;
+}
+.section3 .megatxt {
+  max-width: 600px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  color: hsl(0deg, 0%, 100%);
+}
+.section3 .megatxt h1 {
+  font-size: 40px;
+  margin: 30px 0;
+}
+.section3 .megatxt p {
+  font-size: 20px;
+}
+
+.imga2 {
+  position: absolute;
+  top: 1480px;
+  left: 230px;
+}
+
+@media (max-width: 800px) {
+  .section3 {
+    margin-top: 250px;
+    border-radius: 0 100px 0 100px;
+    height: 800px;
+  }
+  .section3 .imga1 {
+    left: -300px;
+  }
+  .section3 .megatxt {
+    left: 10px;
+    top: 400px;
+  }
+  .imga2 {
+    top: 1950px;
+    left: -35px;
+  }
+}/*# sourceMappingURL=section3.css.map */

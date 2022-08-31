@@ -1,0 +1,66 @@
+$Very-light-red : hsl(355, 100%, 74%);
+$Very-dark-blue: hsl(208, 49%, 24%);
+
+
+$White : hsl(0, 0%, 100%);
+$Grayish-blue : hsl(240, 2%, 79%);
+$Very-dark-grayish-blue : hsl(207, 13%, 34%);
+$Very-dark-black-blue: hsl(240, 10%, 16%);
+
+$Very-light-red: hsl(13, 100%, 72%);
+$Light-red: hsl(353, 100%, 62%);
+.section4 {
+    margin-top: 100px;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+  }
+.section4 .minisection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section4 .minisection .minitxt {
+    margin-top: 0px;
+    margin-left: 100px;
+    height: 500px;
+    max-width: 700px;
+  }
+  .section4 .minisection .minitxt h1 {
+    color: hsl(207deg, 13%, 34%);
+    margin: 50px 0;
+  }
+  .section4 .minisection .minitxt p {
+    font-size: 16px;
+    line-height: 25px;
+    color: hsl(208deg, 49%, 24%);
+  }
+  .section4 .minisection .minimg {
+    margin-top: 0px;
+    height: 700px;
+    width: 700px;
+    background-image: url("/images/illustration-laptop-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+  }
+  
+  @media (max-width: 800px) {
+    .section4 {
+      height: auto;
+    }
+    .minisection {
+      flex-direction: column-reverse;
+    }
+    .section4 .minisection .minitxt {
+      margin: 0 20px;
+    }
+    .section4 .minisection .minimg {
+      margin-top: 50px;
+      height: 500px;
+      width: 100%;
+      background-image: url("/images/illustration-laptop-desktop.svg");
+      background-size: cover;
+    }
+  }/*# sourceMappingURL=section2.css.map */

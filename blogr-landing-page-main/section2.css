@@ -1,0 +1,60 @@
+.section2 {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.section2 .brug {
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+  color: hsl(207deg, 13%, 34%);
+}
+.section2 .minisection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section2 .minisection .minitxt {
+  margin-top: 0px;
+  margin-left: 100px;
+  height: 500px;
+  max-width: 700px;
+}
+.section2 .minisection .minitxt h1 {
+  color: hsl(207deg, 13%, 34%);
+  margin: 50px 0;
+}
+.section2 .minisection .minitxt p {
+  font-size: 16px;
+  line-height: 25px;
+  color: hsl(208deg, 49%, 24%);
+}
+.section2 .minisection .minimg {
+  margin-top: 0px;
+  height: 700px;
+  width: 700px;
+  background-image: url("/images/illustration-editor-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+}
+
+@media (max-width: 800px) {
+  .section2 {
+    height: auto;
+  }
+  .minisection {
+    flex-direction: column-reverse;
+  }
+  .section2 .minisection .minitxt {
+    margin: 0 20px;
+  }
+  .section2 .minisection .minimg {
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    background-image: url("/images/illustration-editor-mobile.svg");
+    background-size: cover;
+  }
+}/*# sourceMappingURL=section2.css.map */
